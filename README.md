@@ -25,7 +25,6 @@ conda create -n shogi pip=9.0 python=3.6
 
 In Git Bash:
 ```bash
-choco install tesseract
 source activate  shogi
 pip install -r requirements.txt
 ```
@@ -33,7 +32,6 @@ pip install -r requirements.txt
 ### Mac (We have not confirmed yet)
 
 ```bash
-brew install tesseract
 pyenv virtualenv shogi python=3.6
 source ~/.pyenv/versions/shogi/bin/activate
 pip install -r requirements.txt
