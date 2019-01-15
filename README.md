@@ -1,5 +1,12 @@
 # shogi_kif_cv
 
+電王盤の画像からShogiGUIに読み込める形式のテキストファイル（.kif）を生成する。  
+cv2 のテンプレートマッチングで将棋盤・駒台上の駒を検出する。  
+駒台に複数同じ駒がある場合は未対応（TOOD）。ひとつだけ駒が置かれている状態になるので、適宜ShogiGUIで編集してください。
+
+![](input_output.jpg)
+
+
 ## Requirements
 
 ### Windows
@@ -8,7 +15,7 @@
 - chocolatey
 - Git Bash
 
-### Mac
+### Mac (not confirmed)
 
 - pyenv
 - virtualenv
@@ -29,7 +36,7 @@ source activate  shogi
 pip install -r requirements.txt
 ```
 
-### Mac (We have not confirmed yet)
+### Mac (not confirmed)
 
 ```bash
 pyenv virtualenv shogi python=3.6
@@ -43,4 +50,4 @@ pip install -r requirements.txt
 jupyter notebook
 ```
 
-Open and run `notebooks/img2kif.ipynb`
+Open and run `notebooks/img2kif_example.ipynb`
