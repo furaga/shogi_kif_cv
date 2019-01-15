@@ -1,0 +1,5 @@
+{
+    "python.pythonPath": "C:\\Users\\furaga\\AppData\\Local\\Continuum\\Anaconda3\\envs\\shogi\\python.exe",
+    "python.linting.enabled": false,
+    "python.formatting.provider": "yapf"
+}
